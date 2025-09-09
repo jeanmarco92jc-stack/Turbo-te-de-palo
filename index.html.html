@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Paseo del Té</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fffacd;
+            color: #333;
+        }
+       .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #eee;
+        }
+        header h1 {
+            color: #4a8d4e;
+            font-size: 3.5em;
+        }
+       .content-section {
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+       .content-section h2 {
+            color: #4a8d4e;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+       .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+       .gallery img {
+            max-width: 30%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 15px;
+        }
+       .button-container {
+            text-align: center;
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+       .action-button {
+            display: inline-block;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: background-color 0.3s;
+        }
+       .whatsapp-button {
+            background-color: #25d366;
+        }
+       .whatsapp-button:hover {
+            background-color: #128c7e;
+        }
+       .map-button {
+            background-color: #4285F4;
+        }
+       .map-button:hover {
+            background-color: #3367D6;
+        }
+       .comments-section {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+        }
+       .comment-form {
+            margin-bottom: 20px;
+        }
+       .comment-form textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            resize: vertical;
+        }
+       .comment-form button {
+            background-color: #4a8d4e;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+       .comment {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+       .comment p {
+            margin: 0;
+            font-style: italic;
+        }
+        /* Nuevos estilos para los hipervínculos */
+       .hyperlinks-section {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+       .hyperlinks-section a {
+            color: #4a8d4e;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+       .hyperlinks-section a:hover {
+            color: #2e6b30;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>El Paseo del Té</h1>
+        </header>
+        
+        <div class="hyperlinks-section">
+            <a href="#plantas">Más información sobre plantas</a>
+            <a href="#actividades">Nuestras Actividades</a>
+        </div>
+
+        <div class="content-section" id="plantas">
+            <h2>Nuestras Plantas</h2>
+            <p>
+                Descubre un mundo de bienestar con nuestras plantas de té. Cada una, cultivada con cuidado, ofrece beneficios únicos para tu salud y tu espíritu.
+            </p>
+
+            <div class="gallery">
+                <img src="https://i.imgur.com/pSIYrTG.jpeg" alt="Foto de planta de té 1">
+                <img src="https://i.imgur.com/60INLKD.jpeg" alt="Foto de planta de té 2">
+            </div>
+
+            <p>
+                El té de manzanilla, por ejemplo, es conocido por sus propiedades relajantes, ideales para un buen descanso. El té verde, rico en antioxidantes, es perfecto para energizar tu día.
+            </p>
+        </div>
+
+        <hr>
+
+        <div class="content-section">
+            <h2>Nuestros Jardines y Beneficios</h2>
+            <p>
+                Puedes pasear por nuestro sendero con una amplia variedad de *plantas medicinales. También tenemos **plantas de la suerte* para atraer la buena energía a tu hogar y un *pasillo sensorial de aromaterapia* para que te relajes y disfrutes de nuestros aromas naturales.
+            </p>
+            <p>
+                En el centro de nuestro espacio, encontrarás una serena *fuente de agua*, el lugar perfecto para meditar y conectar con la naturaleza.
+            </p>
+        </div>
+
+        <hr>
+
+        <div class="content-section" id="actividades">
+            <h2>Nuestras Actividades</h2>
+            <p>
+                Te invitamos a participar en nuestras experiencias y talleres, diseñados para que aprendas y te conectes con el mundo natural.
+            </p>
+            <ul>
+                <li>
+                    <strong>Mini tour:</strong> Un recorrido informativo por el sendero con introducción a las diferentes plantas.
+                </li>
+                <li>
+                    <strong>Talleres creativos:</strong> Aprende a confeccionar jabones y manualidades con ingredientes naturales de la finca.
+                </li>
+                <li>
+                    <strong>Cultivo de plantas:</strong> Participa en la creación y producción de semilleros y aprende sobre la preparación de la tierra y las propiedades de las plantas.
+                </li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div class="content-section">
+            <h2>Información y Contacto</h2>
+            <p>
+                Visítanos en nuestra ubicación para descubrir más sobre nuestras plantas y productos saludables.
+            </p>
+            <p>
+                <strong>Dirección:</strong> Volcán tierras altas Barriada 6 de Agosto
+            </p>
+            <p>
+                Si tienes alguna pregunta o quieres hacer un pedido, contáctanos a través de WhatsApp o encuéntranos en el mapa.
+            </p>
+        </div>
+
+        <div class="button-container">
+            <a href="https://wa.me/50761379004" class="action-button whatsapp-button" target="_blank">
+                ¡Háblanos por WhatsApp!
+            </a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Volcán+tierras+altas+Barriada+6+de+Agosto" class="action-button map-button" target="_blank">
+                Ver en el Mapa
+            </a>
+        </div>
+        
+        <div class="comments-section">
+            <h2>Comentarios</h2>
+            <div class="comment-form">
+                <textarea rows="4" placeholder="Escribe tu comentario..."></textarea>
+                <button type="submit">Enviar comentario</button>
+            </div>
+            <div class="comment">
+                <p>"¡Un lugar mágico y tranquilo! Me encantó la variedad de plantas." - Visitante</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
